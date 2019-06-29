@@ -1,0 +1,83 @@
+[25-Jan-2017 14:41:51 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'set payment_status='verified'' at line 1' in /home/netquart/public_html/newhope786.org/offer/ipn.php:26
+Stack trace:
+#0 /home/netquart/public_html/newhope786.org/offer/ipn.php(26): PDOStatement->execute()
+#1 {main}
+  thrown in /home/netquart/public_html/newhope786.org/offer/ipn.php on line 26
+[25-Jan-2017 16:48:19 America/New_York] PHP Warning:  The use statement with non-compound name 'PaypalIPN' has no effect in /home/netquart/public_html/newhope786.org/offer/payments_admin.php on line 11
+[25-Jan-2017 16:48:19 America/New_York] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/netquart/public_html/newhope786.org/offer/payments_admin.php:11) in /home/netquart/public_html/newhope786.org/offer/payments_admin.php on line 3
+[25-Jan-2017 16:48:19 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/netquart/public_html/newhope786.org/offer/payments_admin.php:11) in /home/netquart/public_html/newhope786.org/offer/payments_admin.php on line 3
+[25-Jan-2017 16:48:19 America/New_York] PHP Warning:  require(PaypalIPN.php): failed to open stream: No such file or directory in /home/netquart/public_html/newhope786.org/offer/payments_admin.php on line 9
+[25-Jan-2017 16:48:19 America/New_York] PHP Fatal error:  require(): Failed opening required 'PaypalIPN.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/netquart/public_html/newhope786.org/offer/payments_admin.php on line 9
+[25-Jan-2017 16:48:34 America/New_York] PHP Warning:  The use statement with non-compound name 'PaypalIPN' has no effect in /home/netquart/public_html/newhope786.org/offer/payments_admin.php on line 11
+[25-Jan-2017 16:48:34 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/netquart/public_html/newhope786.org/offer/payments_admin.php:11) in /home/netquart/public_html/newhope786.org/offer/payments_admin.php on line 3
+[25-Jan-2017 16:48:34 America/New_York] PHP Warning:  require(PaypalIPN.php): failed to open stream: No such file or directory in /home/netquart/public_html/newhope786.org/offer/payments_admin.php on line 9
+[25-Jan-2017 16:48:34 America/New_York] PHP Fatal error:  require(): Failed opening required 'PaypalIPN.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/netquart/public_html/newhope786.org/offer/payments_admin.php on line 9
+[25-Jan-2017 16:50:07 America/New_York] PHP Warning:  The use statement with non-compound name 'PaypalIPN' has no effect in /home/netquart/public_html/newhope786.org/offer/payments_admin.php on line 11
+[25-Jan-2017 16:50:07 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/netquart/public_html/newhope786.org/offer/payments_admin.php:11) in /home/netquart/public_html/newhope786.org/offer/payments_admin.php on line 3
+[25-Jan-2017 16:50:07 America/New_York] PHP Warning:  require(PaypalIPN.php): failed to open stream: No such file or directory in /home/netquart/public_html/newhope786.org/offer/payments_admin.php on line 9
+[25-Jan-2017 16:50:07 America/New_York] PHP Fatal error:  require(): Failed opening required 'PaypalIPN.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/netquart/public_html/newhope786.org/offer/payments_admin.php on line 9
+[25-Jan-2017 16:51:05 America/New_York] PHP Warning:  The use statement with non-compound name 'PaypalIPN' has no effect in /home/netquart/public_html/newhope786.org/offer/payments_admin.php on line 11
+[25-Jan-2017 16:51:05 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/netquart/public_html/newhope786.org/offer/payments_admin.php:11) in /home/netquart/public_html/newhope786.org/offer/payments_admin.php on line 3
+[25-Jan-2017 16:51:06 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'netquart_newhope.free_member_payments' doesn't exist' in /home/netquart/public_html/newhope786.org/offer/payments_admin.php:74
+Stack trace:
+#0 /home/netquart/public_html/newhope786.org/offer/payments_admin.php(74): PDOStatement->execute()
+#1 {main}
+  thrown in /home/netquart/public_html/newhope786.org/offer/payments_admin.php on line 74
+[25-Jan-2017 16:53:03 America/New_York] PHP Warning:  The use statement with non-compound name 'PaypalIPN' has no effect in /home/netquart/public_html/newhope786.org/offer/payments_admin.php on line 11
+[25-Jan-2017 16:53:03 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/netquart/public_html/newhope786.org/offer/payments_admin.php:11) in /home/netquart/public_html/newhope786.org/offer/payments_admin.php on line 3
+[25-Jan-2017 16:53:04 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/netquart/public_html/newhope786.org/offer/payments_admin.php:11) in /home/netquart/public_html/newhope786.org/offer/payments_admin.php on line 134
+[25-Jan-2017 16:55:19 America/New_York] PHP Warning:  The use statement with non-compound name 'PaypalIPN' has no effect in /home/netquart/public_html/newhope786.org/offer/payments_admin.php on line 11
+[25-Jan-2017 16:55:19 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/netquart/public_html/newhope786.org/offer/payments_admin.php:11) in /home/netquart/public_html/newhope786.org/offer/payments_admin.php on line 3
+[25-Jan-2017 16:55:20 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1' in /home/netquart/public_html/newhope786.org/offer/payments_admin.php:86
+Stack trace:
+#0 /home/netquart/public_html/newhope786.org/offer/payments_admin.php(86): PDOStatement->execute()
+#1 {main}
+  thrown in /home/netquart/public_html/newhope786.org/offer/payments_admin.php on line 86
+[25-Jan-2017 16:56:12 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1' in /home/netquart/public_html/newhope786.org/offer/payments_admin.php:86
+Stack trace:
+#0 /home/netquart/public_html/newhope786.org/offer/payments_admin.php(86): PDOStatement->execute()
+#1 {main}
+  thrown in /home/netquart/public_html/newhope786.org/offer/payments_admin.php on line 86
+[25-Jan-2017 17:04:59 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'Missing POST Data' in /home/netquart/public_html/newhope786.org/offer/ipn-class.php:60
+Stack trace:
+#0 /home/netquart/public_html/newhope786.org/offer/payments_admin.php(19): PaypalIPN->verifyIPN()
+#1 {main}
+  thrown in /home/netquart/public_html/newhope786.org/offer/ipn-class.php on line 60
+[25-Jan-2017 17:05:05 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'Missing POST Data' in /home/netquart/public_html/newhope786.org/offer/ipn-class.php:60
+Stack trace:
+#0 /home/netquart/public_html/newhope786.org/offer/payments_admin.php(19): PaypalIPN->verifyIPN()
+#1 {main}
+  thrown in /home/netquart/public_html/newhope786.org/offer/ipn-class.php on line 60
+[25-Jan-2017 17:05:40 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'Missing POST Data' in /home/netquart/public_html/newhope786.org/offer/ipn-class.php:60
+Stack trace:
+#0 /home/netquart/public_html/newhope786.org/offer/payments_admin.php(19): PaypalIPN->verifyIPN()
+#1 {main}
+  thrown in /home/netquart/public_html/newhope786.org/offer/ipn-class.php on line 60
+[25-Jan-2017 17:07:01 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'Missing POST Data' in /home/netquart/public_html/newhope786.org/offer/ipn-class.php:60
+Stack trace:
+#0 /home/netquart/public_html/newhope786.org/offer/payments_admin.php(19): PaypalIPN->verifyIPN()
+#1 {main}
+  thrown in /home/netquart/public_html/newhope786.org/offer/ipn-class.php on line 60
+[26-Jan-2017 08:13:05 America/New_York] PHP Fatal error:  Call to undefined method PDO::perpare() in /home/netquart/public_html/newhope786.org/offer/payments_admin.php on line 53
+[26-Jan-2017 08:13:14 America/New_York] PHP Fatal error:  Call to undefined method PDO::perpare() in /home/netquart/public_html/newhope786.org/offer/payments_admin.php on line 53
+[26-Jan-2017 08:13:14 America/New_York] PHP Fatal error:  Call to undefined method PDO::perpare() in /home/netquart/public_html/newhope786.org/offer/payments_admin.php on line 53
+[26-Jan-2017 13:38:50 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/netquart/public_html/newhope786.org/offer/view-profile.php:73
+Stack trace:
+#0 /home/netquart/public_html/newhope786.org/offer/view-profile.php(73): PDOStatement->execute()
+#1 {main}
+  thrown in /home/netquart/public_html/newhope786.org/offer/view-profile.php on line 73
+[27-Jan-2017 09:17:16 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/netquart/public_html/newhope786.org/offer/gotopaypal.php:40) in /home/netquart/public_html/newhope786.org/offer/gotopaypal.php on line 79
+[27-Jan-2017 09:17:16 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/netquart/public_html/newhope786.org/offer/gotopaypal.php:40) in /home/netquart/public_html/newhope786.org/offer/gotopaypal.php on line 87
+[27-Jan-2017 09:17:16 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/netquart/public_html/newhope786.org/offer/gotopaypal.php:40) in /home/netquart/public_html/newhope786.org/offer/gotopaypal.php on line 95
+[27-Jan-2017 09:17:16 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/netquart/public_html/newhope786.org/offer/gotopaypal.php:40) in /home/netquart/public_html/newhope786.org/offer/gotopaypal.php on line 99
+[27-Jan-2017 09:17:16 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/netquart/public_html/newhope786.org/offer/gotopaypal.php:40) in /home/netquart/public_html/newhope786.org/offer/gotopaypal.php on line 103
+[27-Jan-2017 09:17:16 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/netquart/public_html/newhope786.org/offer/gotopaypal.php:40) in /home/netquart/public_html/newhope786.org/offer/gotopaypal.php on line 107
+[27-Jan-2017 10:12:32 America/New_York] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/netquart/public_html/newhope786.org/offer/connection.php on line 7
+[28-Jan-2017 07:22:18 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/netquart/public_html/newhope786.org/offer/top_header.php:93) in /home/netquart/public_html/newhope786.org/offer/view-profile.php on line 77
+[29-Jan-2017 08:42:09 America/New_York] PHP Fatal error:  Call to a member function execute() on null in /home/netquart/public_html/newhope786.org/offer/subscription-basic.php on line 7
+[29-Jan-2017 08:49:47 America/New_York] PHP Fatal error:  Call to a member function execute() on null in /home/netquart/public_html/newhope786.org/offer/subscription-basic.php on line 7
+[29-Jan-2017 08:49:56 America/New_York] PHP Fatal error:  Call to a member function execute() on null in /home/netquart/public_html/newhope786.org/offer/subscription-basic.php on line 7
+[29-Jan-2017 10:12:18 America/New_York] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/netquart/public_html/newhope786.org/offer/main.php on line 5
+[29-Jan-2017 10:12:18 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/netquart/public_html/newhope786.org/offer/main.php:5) in /home/netquart/public_html/newhope786.org/offer/main.php on line 11
+[29-Jan-2017 10:13:28 America/New_York] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/netquart/public_html/newhope786.org/offer/main.php on line 5
+[29-Jan-2017 10:13:28 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/netquart/public_html/newhope786.org/offer/main.php:5) in /home/netquart/public_html/newhope786.org/offer/main.php on line 13
