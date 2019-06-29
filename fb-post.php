@@ -20,9 +20,9 @@ use Facebook\Exceptions\FacebookSDKException;
 /*
  * Configuration and setup Facebook SDK
  */
-$appId         = '1814826758729082'; //Facebook App ID
-$appSecret     = 'dbef675ea8affe8837a81e77f6f70e7c'; //Facebook App Secret
-$redirectURL   = 'http://localhost/wowme/fblogin.php'; //Callback URL
+$appId         = 'appid'; //Facebook App ID
+$appSecret     = 'secret'; //Facebook App Secret
+$redirectURL   = 'redirecturl'; //Callback URL
 
 
 //$fbPermissions = array('publish_actions'); //Facebook permission
