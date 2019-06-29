@@ -83,24 +83,24 @@ $row = mysqli_fetch_array($q);
 <meta property="og:type" content="article" />
 <meta property="og:title" content="wowme deals make offer is (<?php echo $arr['offer_title'] ?>)" />
 <meta property="og:description" content="wowme deal make offer price (<?php echo $arr['offer_price'] ?>)" />
-<meta property="og:url" content="https://wowme.deals/<?php echo urlencode($row['username']);?>" />
-<meta property="og:site_name" content="wowme.deals" />
-<meta property="article:publisher" content="http://facebook.com/wowme.deals" />
-<meta property="article:author" content="https://www.facebook.com/wowme.deals" />
+<meta property="og:url" content="<?php echo urlencode($row['username']);?>" />
+<meta property="og:site_name" content="" />
+<meta property="article:publisher" content="" />
+<meta property="article:author" content="" />
 <meta property="article:tag" content="wowme offers" />
 <meta property="article:section" content="make offers" />
 <meta property="article:published_time" content="2016-05-13T17:54:05+00:00" />
 <meta property="article:modified_time" content="2016-09-19T20:32:43+00:00" />
 <meta property="og:updated_time" content="2016-09-19T20:32:43+00:00" />
-<meta property="og:image" content="https://wowme.deals/images/wowmelogo_s.png" />
+<meta property="og:image" content="images/wowmelogo_s.png" />
 <meta property="og:image:width" content="100" />
 <meta property="og:image:height" content="100" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:description" content="wowme deals make offer is (<?php echo $arr['offer_title'] ?>)" />
 <meta name="twitter:title" content="wowme deals make offer is (<?php echo $arr['offer_title'] ?>)" />
-<meta name="twitter:site" content="@wowme.deals" />
+<meta name="twitter:site" content="" />
 <meta name="twitter:image" content="<?php echo $img; ?>" />
-<meta name="twitter:creator" content="@wowme.deals" />
+<meta name="twitter:creator" content="" />
 <meta property="DC.date.issued" content="2016-05-13T17:54:05+00:00" />
 
 
