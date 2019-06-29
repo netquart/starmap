@@ -19,9 +19,9 @@ use Facebook\Entities\AccessToken;
 use Facebook\HttpClients\FacebookCurlHttpClient;
 use Facebook\HttpClients\FacebookHttpable;
 // init app with app id and secret
-FacebookSession::setDefaultApplication( '540529686144427','b0fea5bfe5e4cc06351872e653de4cc1' );
+FacebookSession::setDefaultApplication( 'appid','appsecret' );
 // login helper with redirect_uri
-    $helper = new FacebookRedirectLoginHelper('https://wowme.deals/fbconfig.php' );
+    $helper = new FacebookRedirectLoginHelper('url' );
 try {
   $session = $helper->getSessionFromRedirect();
 } catch( FacebookRequestException $ex ) {
