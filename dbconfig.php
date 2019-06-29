@@ -1,6 +1,6 @@
 <?php
 	$db_host = "localhost";
-	$db_name = "custom_offers";
+	$db_name = "db";
 	$db_user = "root";
 	$db_pass = "";
 	
@@ -161,9 +161,9 @@ return $final;
 	
 	function change_subscription_status( $profile_id, $action ) {
  
-    $api_request = 'USER=' . urlencode( 'info-facilitator_api1.netquart.net' )
-                .  '&PWD=' . urlencode( 'MRAHDYMZRVWGJ4TE' )
-                .  '&SIGNATURE=' . urlencode( 'AFcWxV21C7fd0v3bYYYRCpSSRl31AIj5-TuzTpC5b3wsNxw49W.74jmL' )
+    $api_request = 'USER=' . urlencode( 'user' )
+                .  '&PWD=' . urlencode( 'pwd' )
+                .  '&SIGNATURE=' . urlencode( 'signature' )
                 .  '&VERSION=76.0'
                 .  '&METHOD=ManageRecurringPaymentsProfileStatus'
                 .  '&PROFILEID=' . urlencode( $profile_id )
