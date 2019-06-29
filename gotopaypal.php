@@ -230,13 +230,13 @@ redirecting to paypal...
 
 <input type="hidden" name="currency_code" value="USD">
 
-<input type = "hidden" name = "cancel_return" value = "https://wowme.deals/view-profile.php">
+<input type = "hidden" name = "cancel_return" value = "view-profile.php">
 
-<input type = "hidden" name = "return" value = "https://wowme.deals/transactions_buying.php">
+<input type = "hidden" name = "return" value = "transactions_buying.php">
 
 
 
-<input type = "hidden" name = "notify_url" value = "https://wowme.deals/payments_admin3.php">
+<input type = "hidden" name = "notify_url" value = "payments_admin3.php">
 
 
 <input type="hidden" name="custom" value="<?php echo $idget; ?>">
