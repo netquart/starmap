@@ -395,7 +395,7 @@ $(document).ready(function(e) {
 
 		
         
-		window.open('https://wowme.deals/subscription-basic.php','_blank');
+		window.open('subscription-basic.php','_blank');
 		
 
 		});
@@ -409,7 +409,7 @@ $(document).ready(function(e) {
 		
 		
 		
-		window.open('https://wowme.deals/subscription.php','_blank');
+		window.open('subscription.php','_blank');
 
 		//document.paypal_form_premium.submit();
 
