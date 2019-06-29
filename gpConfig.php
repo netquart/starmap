@@ -8,9 +8,9 @@ include_once 'src/contrib/Google_Oauth2Service.php';
 /*
  * Configuration and setup Google API
  */
-$clientId = '922846045697-uknrdtobi66djph5lrvehcs6ot1lc3cd.apps.googleusercontent.com'; //Google client ID
-$clientSecret = 'Xbpmx2qo2dLiVbZmYZ-fRQFY'; //Google client secret
-$redirectURL = 'https://wowme.deals/index3.php'; //Callback URL
+$clientId = 'clientid'; //Google client ID
+$clientSecret = 'secret'; //Google client secret
+$redirectURL = 'url'; //Callback URL
 
 //Call Google API
 $gClient = new Google_Client();
