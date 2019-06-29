@@ -14,7 +14,7 @@ $redirectURL = 'url'; //Callback URL
 
 //Call Google API
 $gClient = new Google_Client();
-$gClient->setApplicationName('Login to wowme.deals');
+$gClient->setApplicationName('Login to site');
 $gClient->setClientId($clientId);
 $gClient->setClientSecret($clientSecret);
 $gClient->setRedirectUri($redirectURL);
