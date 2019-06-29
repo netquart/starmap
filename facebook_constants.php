@@ -1,6 +1,6 @@
 <?php
-define("APPID","540529686144427");
-define("SECRET","b0fea5bfe5e4cc06351872e653de4cc1");
+define("APPID","appid");
+define("SECRET","secret");
 
 require 'facebook/facebook.php';
 
